@@ -28,7 +28,7 @@ function sum($num)
 <body>
     <h2>La suma de los dígitos de <?= $_GET["num"] ?> es <?= sum($_GET["num"]) ?></h2>
     <footer>
-        <h4><a href="<?= "https://github.com/a19caorda/php" . $_SERVER["PHP_SELF"] ?>">Enlace a github</a></h4>
+        <h4><a href="<?= "https://github.com/a19caorda/php/blob/master" . $_SERVER["PHP_SELF"] ?>">Enlace a github</a></h4>
     </footer>
 </body>
 
