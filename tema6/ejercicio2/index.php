@@ -4,8 +4,6 @@
  * @author David Castilla Ortiz
  */
 
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

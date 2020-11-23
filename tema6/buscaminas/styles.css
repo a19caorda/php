@@ -1,0 +1,66 @@
+form {
+    margin: 0 auto;
+    width: max-content;
+}
+
+input[type="submit"], div {
+    width: 40px;
+    height: 40px;
+    background-color: #26a;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.618em;
+    cursor: pointer;
+}
+
+input[type="submit"]:disabled {
+    background-color: #222;
+cursor: initial;
+}
+
+input[value="1"] {
+    color: #0f4;
+}
+
+input[value="2"] {
+    color: #df0;
+}
+
+input[value="3"] {
+    color: #f04;
+}
+
+#reset {
+    display: inline;
+    width: calc(50% - 4px);
+    padding: 0;
+}
+
+div {
+    background: none;
+    display: inline-block;
+    width: calc(50% - 4px);
+    height: auto;
+}
+
+div input {
+    position: absolute;
+    opacity: 0;
+}
+
+div label {
+    display: block;
+    line-height: 40px;
+    width: 100%;
+    color: #131313;
+    box-shadow:inset 0 0 0 4px #26a;
+    border-radius: 8px;
+}
+
+div input:checked ~ label {
+    background-color: #26a;
+    color: white;
+}
