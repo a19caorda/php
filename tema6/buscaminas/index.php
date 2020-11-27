@@ -45,7 +45,7 @@ if (!isset($_SESSION['buscaminas_jugador'])) {
         <input type="submit" value="<?php if ($_SESSION['finished']) echo "Nueva partida";
                                     else echo "Reiniciar"; ?>" name="reset" id="reset">
         <div>
-            <input type="checkbox" name="flags" id="flags">
+            <input type="checkbox" name="flags" id="flags" <?php if (isset($_POST['flags'])) echo "checked"; ?>>
             <label for="flags">Alternar banderas</label>
         </div>
 

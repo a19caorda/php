@@ -48,6 +48,9 @@ $temas = array(
         "Ejercicio 5" => "/tema6/ejercicio5",
         "Buscaminas" => "/tema6/buscaminas",
     ),
+    "Tema 7. Ficheros" => array(
+        "Genereación de usuarios" => "/tema7/scriptUsuarios"
+    ),
     "Portfolio de prueba" => "/portfolio-prueba",
 );
 
